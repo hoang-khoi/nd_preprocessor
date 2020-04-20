@@ -1,3 +1,6 @@
+#ifndef STATEMACHINE_H
+#define STATEMACHINE_H
+
 typedef enum _state {
     /* <P> */
     EXPECT_OPEN_P_LESS,
@@ -70,3 +73,5 @@ STATE feed_receiving_def(int ch);
 STATE feed_waiting_for_endline(int ch);
 
 STATE feed_invalid(int ch);
+
+#endif
