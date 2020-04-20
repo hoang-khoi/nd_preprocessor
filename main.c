@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "statemachine.h"
+#include "fsm.h"
 
 int main() {
     int ch;
