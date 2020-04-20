@@ -1,0 +1,8 @@
+DOWNLOAD ENGLISH DICTIONARY DATA
+    ./download_data.sh
+
+BUILD THE PROCESSOR
+    make
+
+RUN
+    make run
